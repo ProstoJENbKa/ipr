@@ -1,0 +1,5 @@
+cd "C:\PROSTO_JENbKa\Pogram\JMETER_2\apache-jmeter-5.6.3\bin"
+.\jmeter.bat -S "C:\PROSTO_JENbKa\Project\ipr\SSL\ssl-test.properties"
+
+=======================================================================
+java -Djavax.net.debug=ssl,handshake -jar iprSSL-1.0.jar

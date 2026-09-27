@@ -1,0 +1,9 @@
+http://192.168.0.103:8001  - почта
+
+test@example.com
+
+
+set "K6_WEB_DASHBOARD=true"
+set "K6_WEB_DASHBOARD_OPEN=true"
+
+k6 run mail-load.js
